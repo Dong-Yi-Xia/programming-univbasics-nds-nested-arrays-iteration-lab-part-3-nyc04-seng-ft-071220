@@ -7,7 +7,7 @@ def join_nested_strings(src)
   #   array.each{|x| x.is_a?(String) ? arr += "#{x} " : x}
   # end
   # arr
-  
+
   arr = []
   src.each do |array|
     array.each{|x| x.is_a?(String) ? arr.push(x) : x}
